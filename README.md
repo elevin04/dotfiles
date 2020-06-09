@@ -35,8 +35,8 @@
 
 ## Screens
 ---
-![Screenshot](https://i.imgur.com/uNkHdYk.jpg)
+![Screenshot](https://i.imgur.com/9mYr7Ja.jpg)
 ---
-![Screenshot](https://i.imgur.com/f7p7GC1.png)
+![Screenshot](https://i.imgur.com/ZFZ4CZF.png)
 ---
-![Screenshot](https://i.imgur.com/NJ9T5bW.jpg)
+![Screenshot](https://i.imgur.com/panJNzn.jpg)
