@@ -163,11 +163,9 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # volume keys
-bindsym XF86AudioMute exec "pactl set-sink-mute 0 toggle"
-
-bindsym XF86AudioRaiseVolume exec "pactl set-sink-volume 0 +5%"
-
-bindsym XF86AudioLowerVolume exec "pactl set-sink-volume 0 -5%"
+bindsym XF86AudioRaiseVolume exec --no-startup-id ~/.config/i3/scripts/pactl_volume.sh +5% # increase volume by 5%
+bindsym XF86AudioLowerVolume exec --no-startup-id ~/.config/i3/scripts/pactl_volume.sh -5% # decrease volumbe by 5%
+bindsym XF86AudioMute exec --no-startup-id ~/.config/i3/scripts/pactl_volume.sh M
 
 # mic mute
 bindsym XF86AudioMicMute exec 'pactl set-source-mute 1 toggle'
