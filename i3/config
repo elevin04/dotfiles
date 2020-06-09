@@ -33,6 +33,9 @@ exec --no-startup-id nm-applet
 # Composite manager
 exec --no-startup-id picom -b
 
+# Mopidy
+exec --no-startup-id mopidy
+
 # You can also use any non-zero value if you'd like to have a border
 for_window [class=".*"] border pixel 0
 
