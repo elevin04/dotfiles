@@ -21,19 +21,16 @@
 - wallpaper: [here](https://i.imgur.com/phAQb7W.png)
 
 	  
-	 	free bobby shmurda 
-	         \
-	          \
-	            ^__^ 
-	    _______/(oo)
-	/\/(       /(__)
-	   | W----|| |~|
-	   ||     || |~|  ~~
-	             |~|  ~
-	             |_| o
-	             |#|/
-	            _+#+_
-
+      free bobby shmurda 
+       \
+        \
+            .--.
+           |o_o |
+           |:_/ |
+          //   \ \
+         (|     | )
+        /'\_   _/`\
+        \___)=(___/
 ---
 ![Screenshot](https://i.imgur.com/hfgeFor.png)
 ---
