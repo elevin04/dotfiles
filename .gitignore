@@ -6,6 +6,7 @@ BraveSoftware/
 chromium/
 cmus/
 configstore/
+dconf/
 discord/
 dleyna-renderer-service.conf
 Electron/
