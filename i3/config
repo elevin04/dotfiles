@@ -229,8 +229,8 @@ gaps inner 20
 #smart_gaps on
 
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp exec brightlight -i 100  # increase screen brightness
-bindsym XF86MonBrightnessDown exec brightlight -d 100 # decrease screen brightness
+bindsym XF86MonBrightnessUp exec brightlight -p -i 5 # increase screen brightness
+bindsym XF86MonBrightnessDown exec brightlight -p -d 5 # decrease screen brightness
 
 # i3 alernating layout
 # see: https://github.com/olemartinorg/i3-alternating-layout
