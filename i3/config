@@ -130,14 +130,7 @@ set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
 
-# autostart programs to specific workstations 
-# exec --no-startup-id sh -c 'sleep 1; i3-msg workspace $ws2; exec /usr/bin/firefox'
-# exec --no-startup-id sh -c 'sleep 3; i3-msg workspace $ws8; exec /usr/bin/pulse-sms'
-# exec --no-startup-id sh -c 'sleep 4; i3-msg workspace $ws9; exec /usr/bin/spotify'
-# exec --no-startup-id sh -c 'sleep 5; i3-msg workspace $ws10; exec /usr/bin/discord'
-
 # assign programs to specific workstations
-for_window [class="pulse-sms"] move to workspace $ws8
 for_window [class="Spotify"] move to workspace $ws9
 for_window [class="discord"] move to workspace $ws10
 

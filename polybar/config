@@ -138,9 +138,8 @@ wrapping-scroll = false
 ;pin-workspaces = true
 ws-icon-0=1;
 ws-icon-1=2;
-ws-icon-2=8;
-ws-icon-3=9;
-ws-icon-4=10;
+ws-icon-2=9;
+ws-icon-3=10;
 ws-icon-default=
 
 
