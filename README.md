@@ -20,9 +20,8 @@
 
 - wallpaper: [here](https://i.imgur.com/phAQb7W.png)
 
-	 ____________________ 
-	< free bobby shmurda >
-	 -------------------- 
+	  
+	 	free bobby shmurda 
 	         \
 	          \
 	            ^__^ 
