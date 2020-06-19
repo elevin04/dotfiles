@@ -20,6 +20,8 @@
 
 - wallpaper: [here](https://i.imgur.com/phAQb7W.png)
 
+- non-OC scripts:
+  -  [i3-alternating-layout](https://github.com/olemartinorg/i3-alternating-layout)
 	  
       free bobby shmurda 
        \
