@@ -38,7 +38,6 @@
 
 
 ## Screens
----
 ![Screenshot](https://i.imgur.com/9mYr7Ja.jpg)
 ---
 ![Screenshot](https://i.imgur.com/ZFZ4CZF.png)
