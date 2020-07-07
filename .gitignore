@@ -1,9 +1,13 @@
+.mono/
 Atom/
 BetterDiscord/
 BraveSoftware/
+Debauchee/
 Electron/
 GIMP/
 Google/
+KeePass/
+Keepass/
 Ledger Live/
 MyCrypto/
 VeraCrypt/
@@ -32,7 +36,6 @@ libreoffice/
 mimeapps.list
 mopidy/
 nautilus/
-neofetch/
 pavucontrol.ini
 pulse-sms/
 pulse/

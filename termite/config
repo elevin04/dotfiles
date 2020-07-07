@@ -1,89 +1,52 @@
-[options]
-allow_bold = true
-#audible_bell = false
-#bold_is_bright = true
-#cell_height_scale = 1.0
-#cell_width_scale = 1.0
-#clickable_url = true
-#dynamic_title = true
-font = mononoki Nerd Font 13
-font = monospace 9
-#fullscreen = true
-#icon_name = terminal
-#mouse_autohide = false
-#scroll_on_output = false
-#scroll_on_keystroke = true
-# Length of the scrollback buffer, 0 disabled the scrollback buffer
-# and setting it to a negative value means "infinite scrollback"
-scrollback_lines = 10000
-#search_wrap = true
-#urgent_on_bell = true
-#hyperlinks = false
-
-# $BROWSER is used by default if set, with xdg-open as a fallback
-#browser = xdg-open
-
-# "system", "on" or "off"
-#cursor_blink = system
-
-# "block", "underline" or "ibeam"
-#cursor_shape = block
-
-# Hide links that are no longer valid in url select overlay mode
-#filter_unmatched_urls = true
-
-# Emit escape sequences for extra modified keys
-#modify_other_keys = false
-
-# set size hints for the window
-#size_hints = false
-
-# "off", "left" or "right"
-#scrollbar = off
-
 [colors]
-# If both of these are unset, cursor falls back to the foreground color,
-# and cursor_foreground falls back to the background color.
-#cursor = #dcdccc
-#cursor_foreground = #dcdccc
+# Base16 Macintosh
+# Author: Rebecca Bettencourt (http://www.kreativekorp.com)
 
-foreground = #ffffff
-foreground_bold = #ffffff
-background = #000000
+foreground          = #c0c0c0
+foreground_bold     = #c0c0c0
+cursor              = #c0c0c0
+cursor_foreground   = #000000
+background          = #000000
 
-# background transparency is the last variable(requires a compositor)
-background = rgba(1, 1, 1, 0.82)
+# 16 color space
 
-# If unset, will reverse foreground and background
-highlight = #2f2f2f
+# Black, Gray, Silver, White
+color0  = #000000
+color8  = #808080
+color7  = #c0c0c0
+color15 = #ffffff
 
-# Colors from color0 to color254 can be set
-color0 = #2e1f1f
-color1 = #aa0e50
-color2 = #1dcc9f
-color3 = #f17aff
-color4 = #b082b7
-color5 = #aa5566
-color6 = #5d299b
-color7 = #b7bbbd
-color8 = #bb8899
-color9 = #bb8899
-color10 = #1fd9a9
-color11 = #905199
-color12 = #b082b7
-color13 = #7f5aa1
-color14 = #764baa
-color15 = #d9d9d9
+# Red
+color1  = #dd0907
+color9  = #dd0907
 
-[hints]
-#font = Monospace 12
-#foreground = #dcdccc
-#background = #3f3f3f
-#active_foreground = #e68080
-#active_background = #3f3f3f
-#padding = 2
-#border = #3f3f3f
-#border_width = 0.5
-#roundness = 2.0
+# Green
+color2  = #1fb714
+color10 = #1fb714
 
-# vim: ft=dosini cms=#%s
+# Yellow
+color3  = #fbf305
+color11 = #fbf305
+
+# Blue
+color4  = #0000d3
+color12 = #0000d3
+
+# Purple
+color5  = #4700a5
+color13 = #4700a5
+
+# Teal
+color6  = #02abea
+color14 = #02abea
+
+# Extra colors
+color16 = #ff6403
+color17 = #90713a
+color18 = #404040
+color19 = #404040
+color20 = #808080
+color21 = #c0c0c0
+
+# Transparency
+background= rgba(1, 1, 1, 0.82)

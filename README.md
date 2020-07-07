@@ -1,8 +1,8 @@
-# Dotfiles for my Lenovo Thinkpad x220
+# Dotfiles for my (corebooted) Lenovo Thinkpad x220
 
 ## General Info
 
-- OS: Arch Linux
+- OS: debian buster
 
 - wm: i3-gaps
 
@@ -12,9 +12,9 @@
 
 - compositor: picom
 
-- font: mononoki (terminal) and Font Awesome 5 (polybar icons)
+- font: mononoki (terminal) and Font Awesome (polybar icons)
 
-- shell: bash (for now at least)
+- shell: bash
 
 - editor: vim
 
