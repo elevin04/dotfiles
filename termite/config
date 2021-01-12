@@ -1,52 +1,78 @@
+[options]
+allow_bold = true
+#audible_bell = false
+#bold_is_bright = true
+#cell_height_scale = 1.0
+#cell_width_scale = 1.0
+clickable_url = true
+dynamic_title = true
+
+#font = Commodore 64 8
+font = creep 15
+
+#fullscreen = true
+#icon_name = terminal
+#mouse_autohide = false
+#scroll_on_output = false
+#scroll_on_keystroke = true
+# Length of the scrollback buffer, 0 disabled the scrollback buffer
+# and setting it to a negative value means "infinite scrollback"
+scrollback_lines = 10000
+#search_wrap = true
+#urgent_on_bell = true
+#hyperlinks = false
+
+# $BROWSER is used by default if set, with xdg-open as a fallback
+browser = xdg-open
+
+# "system", "on" or "off"
+cursor_blink = system
+
+# "block", "underline" or "ibeam"
+cursor_shape = block
+
+# Hide links that are no longer valid in url select overlay mode
+#filter_unmatched_urls = true
+
+# Emit escape sequences for extra modified keys
+#modify_other_keys = false
+
+# set size hints for the window
+#size_hints = false
+
+# "off", "left" or "right"
+#scrollbar = off
+
+# ====================================
 [colors]
-# Base16 Macintosh
-# Author: Rebecca Bettencourt (http://www.kreativekorp.com)
 
-foreground          = #c0c0c0
-foreground_bold     = #c0c0c0
-cursor              = #c0c0c0
-cursor_foreground   = #000000
-background          = #000000
+# https://github.com/chriskempson/base16-xresources/blob/master/base16-google.dark.256.xresources
+# Base16 Google
+# Scheme: Seth Wright (http://sethawright.com)
+foreground=#c5c8c6
+background=rgba(0, 0, 0, 0.80)
+cursor=#c5c8c6
 
-# 16 color space
+color0=#1d1f21
+color1=#CC342B
+color2=#198844
+color3=#FBA922
+color4=#3971ED
+color5=#A36AC7
+color6=#3971ED
+color7=#c5c8c6
+color8=#969896
+color9=#CC342B
+color10=#198844
+color11=#FBA922
+color12=#3971ED
+color13=#A36AC7
+color14=#3971ED
+color15=#ffffff
 
-# Black, Gray, Silver, White
-color0  = #000000
-color8  = #808080
-color7  = #c0c0c0
-color15 = #ffffff
-
-# Red
-color1  = #dd0907
-color9  = #dd0907
-
-# Green
-color2  = #1fb714
-color10 = #1fb714
-
-# Yellow
-color3  = #fbf305
-color11 = #fbf305
-
-# Blue
-color4  = #0000d3
-color12 = #0000d3
-
-# Purple
-color5  = #4700a5
-color13 = #4700a5
-
-# Teal
-color6  = #02abea
-color14 = #02abea
-
-# Extra colors
-color16 = #ff6403
-color17 = #90713a
-color18 = #404040
-color19 = #404040
-color20 = #808080
-color21 = #c0c0c0
-
-# Transparency
-background= rgba(1, 1, 1, 0.82)
+color16=#F96A38
+color17=#3971ED
+color18=#282a2e
+color19=#373b41
+color20=#b4b7b4
+color21=#e0e0e0

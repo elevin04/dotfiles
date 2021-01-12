@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 9 
+font pango:monospace 8 
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -57,7 +57,7 @@ bindsym $mod+Return exec termite
 bindsym $mod+Shift+q kill
 
 # start rofi (a program launcher, instead of dmenu)
-bindsym $mod+d exec "rofi -show drun"
+bindsym $mod+d exec --no-startup-id "rofi -show drun"
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -160,14 +160,14 @@ bindsym XF86AudioLowerVolume exec --no-startup-id ~/.config/i3/scripts/pactl_vol
 bindsym XF86AudioMute exec --no-startup-id ~/.config/i3/scripts/pactl_volume.sh M
 
 # mic mute
-bindsym XF86AudioMicMute exec 'pactl set-source-mute 1 toggle'
+bindsym XF86AudioMicMute exec --no-startup-id 'pactl set-source-mute 1 toggle'
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec --no-startup-id "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -220,9 +220,12 @@ gaps inner 20
 #smart_gaps on
 
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp exec brightlight -p -i 5 # increase screen brightness
-bindsym XF86MonBrightnessDown exec brightlight -p -d 5 # decrease screen brightness
+bindsym XF86MonBrightnessUp exec --no-startup-id brightlight -p -i 5 # increase screen brightness
+bindsym XF86MonBrightnessDown exec --no-startup-id brightlight -p -d 5 # decrease screen brightness
 
 # i3 alernating layout
 # see: https://github.com/olemartinorg/i3-alternating-layout
 exec --no-startup-id ~/.config/i3/scripts/i3-alternating-layout/alternating_layouts.py
+
+# toggle titlebar
+bindsym $mod+t exec --no-startup-id oi3h border --toggle 'pixel 1' 'normal 2'

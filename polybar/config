@@ -55,7 +55,7 @@ font-2 = FontAwesome:pixelsize=12;3
 
 modules-left = bspwm i3
 modules-center = date 
-modules-right = wlan temperature battery powermenu pulseaudio
+modules-right = wlan temperature battery pulseaudio
 
 tray-position = right
 ;tray-padding = 1 
@@ -221,7 +221,7 @@ label = %percentage_used%%
 
 [module/wlan]
 type = internal/network
-interface = wlp3s0 
+interface = wlp2s0 
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
@@ -259,7 +259,7 @@ format-disconnected =
 
 [module/date]
 type = internal/date
-interval = 5
+interval = 1 
 
 date =
 date-alt = " %Y-%m-%d"
