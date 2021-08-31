@@ -1,8 +1,8 @@
-# Dotfiles for my (corebooted) Lenovo Thinkpad x220
+# Coreboot Lenovo Thinkpad x220 Dotfiles
 
 ## General Info
 
-- OS: debian buster
+- OS: debian
 
 - wm: i3-gaps
 
